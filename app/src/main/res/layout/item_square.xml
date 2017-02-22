@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--banner 自定轮播属性：is_auto_play-->
+    <!--<com.youth.banner.Banner-->
+        <!--android:id="@+id/banner"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="130dp"-->
+        <!--app:indicator_height="5dp"-->
+        <!--app:indicator_width="5dp"-->
+        <!--app:image_scale_type="fit_xy"-->
+        <!--app:is_auto_play="true" />-->
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"/>
+
+    <com.viewpagerindicator.CirclePageIndicator
+        android:id="@+id/indicator"
+        android:layout_height="wrap_content"
+        app:fillColor="#ff0000"
+        android:layout_width="match_parent"/>
+
+    <View
+        android:layout_marginTop="10dp"
+        android:background="#22000000"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"></View>
+
+    <TextView
+        android:text="推荐订阅"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

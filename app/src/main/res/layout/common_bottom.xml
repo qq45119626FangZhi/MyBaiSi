@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8.0dip"
+    android:layout_marginRight="8.0dip"
+    android:gravity="center_vertical"
+    android:paddingTop="5dp">
+
+
+    <LinearLayout
+        android:id="@+id/ll_ding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/rl_bottom_com"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:gravity="center_horizontal">
+
+            <ImageButton
+                android:id="@+id/iv_bottom_ding"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/shenhe_ding_pic_selector" />
+
+            <TextView
+                android:id="@+id/tv_shenhe_ding_number"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:text="122"
+                android:textColor="@drawable/text_color_selector"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll_cai"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/iv_bottom_cai"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/shenhe_cai_pic_night_selector" />
+
+            <TextView
+                android:id="@+id/tv_shenhe_cai_number"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:text="211"
+                android:textColor="@drawable/text_color_selector"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_share"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/iv_bottom_share"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/video_pause_forword" />
+
+            <TextView
+                android:id="@+id/tv_posts_number"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:text="3"
+                android:textColor="#44000000"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_comment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/iv_bottom_comment"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/video_pause_comment" />
+
+            <TextView
+                android:id="@+id/tv_comment_number"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:paddingTop="2dp"
+                android:text="45"
+                android:textSize="12sp"
+                android:textColor="#44000000" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
